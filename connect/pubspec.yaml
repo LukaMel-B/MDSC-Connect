@@ -1,0 +1,41 @@
+name: connect
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.0.1 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  sizer: ^2.0.15
+  intl: ^0.18.1
+  font_awesome_flutter: 10.4.0
+  extended_image: 8.0.1
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: Montserrat Bold
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.ttf
+    - family: Montserrat Medium
+      fonts:
+        - asset: assets/fonts/Montserrat-Medium.ttf
+    - family: Montserrat SemiBold
+      fonts:
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+    - family: Montserrat Black
+      fonts:
+        - asset: assets/fonts/Montserrat-Black.ttf
+  uses-material-design: true
